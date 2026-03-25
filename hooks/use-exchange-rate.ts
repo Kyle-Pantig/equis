@@ -35,7 +35,7 @@ export function useExchangeRate() {
     async function fetchRate() {
       try {
         const res = await fetch(
-          `https://v6.exchangerate-api.com/v6/${process.env.EXCHANGE_RATE_API_KEY}/pair/USD/PHP`,
+          `https://v6.exchangerate-api.com/v6/${process.env.NEXT_PUBLIC_EXCHANGE_RATE_API_KEY}/pair/USD/PHP`,
           { signal: controller.signal }
         );
         if (!res.ok) throw new Error("API request failed");
