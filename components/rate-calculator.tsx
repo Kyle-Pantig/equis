@@ -82,7 +82,7 @@ export default function RateCalculator() {
   return (
     <>
       <Preloader />
-      <div className="flex min-h-screen items-center justify-center p-4 transition-all duration-700 delay-[1600ms]">
+      <div className="flex min-h-screen items-center justify-center p-4">
       <div className="w-full max-w-md space-y-4">
         {/* Header */}
         <div className="space-y-1 text-center py-6">
